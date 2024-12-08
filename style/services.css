@@ -1,0 +1,56 @@
+#contact-main {
+  margin-top: 6%;
+  padding-left: 14px;
+  padding-right: 14px;
+  
+}
+#contact-main h1 p {
+  margin-bottom: 20px;
+}
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+}
+.youtube-logo {
+   width: 40px;
+   height:28px;
+   object-fit: cover;
+   margin-right: 20px;
+}
+
+#contact-main div a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color:  rgb(25, 135, 84);
+  margin-bottom: 0px;
+  margin-top: 40px;
+  font-size: 14px;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  padding-left: 12px;
+  /* font-weight: 400; */
+ 
+}
+
+#contact-main div a:hover::after {
+  content: '';
+  width: 200px;
+  height: 50px;
+  border: 2px solid rgb(25, 135, 84);
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.email-logo  {
+  width: 40px;
+  height:24px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
